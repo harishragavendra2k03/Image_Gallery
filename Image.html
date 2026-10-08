@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Image Gallery</title>
+
+    <link rel="stylesheet" href="./imgstyle.css">
+</head>
+
+<body>
+
+    <h2>IMAGE GALLERY</h2>
+
+    <div class="btn">
+        <button class="filter active" data-category="all">All</button>
+        <button class="filter" data-category="ocean">Ocean</button>
+        <button class="filter" data-category="food">Food</button>
+        <button class="filter" data-category="cars">Cars</button>
+        <button class="filter" data-category="love">Love</button>
+        <button class="filter" data-category="sunset">Sunset</button>
+    </div>
+
+    <div class="img" id="imageContainer">
+        <!-- Images will come from JavaScript -->
+    </div>
+
+    <div class="lbtn">
+        <button id="prev">Prev</button>
+        <button id="next">Next</button>
+    </div>
+
+    <script src="./img.js"></script>
+
+</body>
+
+</html>
